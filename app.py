@@ -23,11 +23,13 @@ def get_top_repos():
     ))
     
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(None, 5000, debug=True)
     
 '''
 creating an environment folder
 python -m venv env 
-env\Scripts\activate
+to activate: env\Scripts\activate
+
+
 '''
 
