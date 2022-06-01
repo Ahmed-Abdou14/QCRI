@@ -1,9 +1,8 @@
 from flask import Flask, jsonify, request
-import json
-import repo
+from repo import Repo
 
 app = Flask(__name__)
-psql_repo = repo.Repo()
+psql_repo = Repo()
 
 @app.route('/')
 def index():

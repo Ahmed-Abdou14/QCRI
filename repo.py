@@ -1,5 +1,6 @@
 import requests
 from psycopg2 import connect
+
 class Repo:
 
     def __init__(self):
